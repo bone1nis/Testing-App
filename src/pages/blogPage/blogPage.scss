@@ -1,0 +1,23 @@
+@use "../../assets/style/_variables.scss" as *;
+
+.blog {
+  padding: 100px 0;
+  &__content {
+    background-image: linear-gradient($main-color-1, $main-color-2);
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  &__subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
