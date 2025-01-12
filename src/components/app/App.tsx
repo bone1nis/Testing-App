@@ -34,16 +34,16 @@ const App = (): ReactElement => {
         <AppHeader />
         <main className="main">
           <Routes>
-            <Route path="/" element={<MainPage />} />
-            <Route path="/age-verification" element={<AgeVerificationPage />} />
-            <Route path="/game" element={<GamePage />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-            <Route path="/cookie-privacy" element={<CookiePrivacyPage />} />
+            <Route path="/Testing-App/" element={<MainPage />} />
+            <Route path="/Testing-App/age-verification" element={<AgeVerificationPage />} />
+            <Route path="/Testing-App/game" element={<GamePage />} />
+            <Route path="/Testing-App/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/Testing-App/cookie-privacy" element={<CookiePrivacyPage />} />
             <Route
-              path="/terms-and-conditions"
+              path="/Testing-App/terms-and-conditions"
               element={<TermsAndConditionsPage />}
             />
-            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/Testing-App/blog" element={<BlogPage />} />
           </Routes>
         </main>
         <AppFooter />

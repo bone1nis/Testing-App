@@ -13,7 +13,7 @@ const MainPage = (): ReactElement => {
         <div className="container">
           <div className="promotional-banner__wrapper">
             <img
-              src="/resources/girl.avif"
+              src="/Testing-App/resources/girl.avif"
               alt="rus"
               className="promotional-banner__img"
             />
@@ -39,7 +39,7 @@ const MainPage = (): ReactElement => {
               reprehenderit dolores beatae expedita officiis? Consequuntur est
               dolore ad dolorum laborum, nemo reprehenderit.
             </p>
-            <Link to="/game" className="game-banner__btn">
+            <Link to="/Testing-App/game" className="game-banner__btn">
               To game
             </Link>
           </div>
@@ -101,7 +101,7 @@ const MainPage = (): ReactElement => {
               molestias eligendi, saepe ratione vero, voluptatum quae dolor sint
               nam modi error! Distinctio?
             </h4>
-            <img src="/resources/age.png" alt="age" className="about__img" />
+            <img src="/Testing-App/resources/age.png" alt="age" className="about__img" />
           </div>
         </div>
       </div>

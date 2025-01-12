@@ -14,7 +14,7 @@ const AgeVerification = (): ReactElement => {
             itaque numquam incidunt vitae!
           </h2>
           <img
-            src="/resources/age.png"
+            src="/Testing-App/resources/age.png"
             alt="Age"
             className="age-verification__img"
           />
