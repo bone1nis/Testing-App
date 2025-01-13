@@ -21,12 +21,12 @@ const AgeVerificationBanner = (): ReactElement | null => {
     localStorage.setItem("ageVerified", "true");
     setShowBanner(false);
 
-    navigate("/");
+    navigate("/Testing-App/");
   };
 
   const handleDecline = () => {
     setShowBanner(false);
-    navigate("/age-verification");
+    navigate("/Testing-App/age-verification");
   };
 
   if (!showBanner) return null;
