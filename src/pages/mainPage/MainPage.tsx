@@ -3,6 +3,9 @@ import { Link } from "react-router";
 
 import AgeVerification from "../../components/ageVerification/AgeVerification";
 
+import girl from "../../assets/images/girl.avif"
+import age from "../../assets/images/age.png"
+
 import "./mainPage.scss";
 
 const MainPage = (): ReactElement => {
@@ -13,7 +16,7 @@ const MainPage = (): ReactElement => {
         <div className="container">
           <div className="promotional-banner__wrapper">
             <img
-              src="/Testing-App/resources/girl.avif"
+              src={girl}
               alt="rus"
               className="promotional-banner__img"
             />
@@ -39,7 +42,7 @@ const MainPage = (): ReactElement => {
               reprehenderit dolores beatae expedita officiis? Consequuntur est
               dolore ad dolorum laborum, nemo reprehenderit.
             </p>
-            <Link to="/Testing-App/game" className="game-banner__btn">
+            <Link to="/game" className="game-banner__btn">
               To game
             </Link>
           </div>
@@ -101,7 +104,7 @@ const MainPage = (): ReactElement => {
               molestias eligendi, saepe ratione vero, voluptatum quae dolor sint
               nam modi error! Distinctio?
             </h4>
-            <img src="/Testing-App/resources/age.png" alt="age" className="about__img" />
+            <img src={age} alt="age" className="about__img" />
           </div>
         </div>
       </div>

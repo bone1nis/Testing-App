@@ -27,23 +27,23 @@ const BlogPage = lazy(() => import("../../pages/blogPage/BlogPage"));
 
 const App = (): ReactElement => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Testing-App/">
       <div className="app">
         <AgeVerificationBanner />
         <CookieBanner />
         <AppHeader />
         <main className="main">
           <Routes>
-            <Route path="/Testing-App/" element={<MainPage />} />
-            <Route path="/Testing-App/age-verification" element={<AgeVerificationPage />} />
-            <Route path="/Testing-App/game" element={<GamePage />} />
-            <Route path="/Testing-App/privacy-policy" element={<PrivacyPolicyPage />} />
-            <Route path="/Testing-App/cookie-privacy" element={<CookiePrivacyPage />} />
+            <Route path="/" element={<MainPage />} />
+            <Route path="/age-verification" element={<AgeVerificationPage />} />
+            <Route path="/game" element={<GamePage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/cookie-privacy" element={<CookiePrivacyPage />} />
             <Route
-              path="/Testing-App/terms-and-conditions"
+              path="/terms-and-conditions"
               element={<TermsAndConditionsPage />}
             />
-            <Route path="/Testing-App/blog" element={<BlogPage />} />
+            <Route path="/blog" element={<BlogPage />} />
           </Routes>
         </main>
         <AppFooter />

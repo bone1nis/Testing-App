@@ -1,5 +1,7 @@
 import { ReactElement } from "react";
 
+import age from "../../assets/images/age.png"
+
 import "./ageVerification.scss";
 
 const AgeVerification = (): ReactElement => {
@@ -14,7 +16,7 @@ const AgeVerification = (): ReactElement => {
             itaque numquam incidunt vitae!
           </h2>
           <img
-            src="/Testing-App/resources/age.png"
+            src={age}
             alt="Age"
             className="age-verification__img"
           />
