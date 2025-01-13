@@ -27,7 +27,7 @@ const BlogPage = lazy(() => import("../../pages/blogPage/BlogPage"));
 
 const App = (): ReactElement => {
   return (
-    <BrowserRouter basename="/Testing-App/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="app">
         <AgeVerificationBanner />
         <CookieBanner />
