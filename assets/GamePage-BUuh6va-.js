@@ -1,0 +1,1 @@
+import{j as e}from"./index-BI8DAKkG.js";const s=()=>e.jsx(e.Fragment,{children:e.jsx("div",{className:"game",children:e.jsx("div",{className:"container",children:e.jsx("div",{className:"game__wrapper",children:e.jsx("iframe",{src:"https://esporte-br77.com/game-dir/index.html",width:"800",height:"600",className:"game__iframe"})})})})});export{s as default};
